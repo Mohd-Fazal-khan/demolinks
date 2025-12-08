@@ -1,8 +1,8 @@
 export default function handler(req, res) {
   const { flyerId, productId } = req.query;
 
-  const deepLink = `demo://flyer/${flyerId}/${productId}`;
-  const playStore = "https://play.google.com/store/apps/details?id=com.demolink";
+  const deepLink = `dealzup://flyer/${flyerId}/${productId}`;
+  const playStore = "https://play.google.com/store/apps/details?id=com.dealzupuser";
 
   res.setHeader("Content-Type", "text/html");
 
