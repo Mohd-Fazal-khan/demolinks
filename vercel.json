@@ -10,6 +10,14 @@
       "dest": "/api/offer?offerId=$1"
     },
     {
+      "src": "/banner/(.*)",
+      "dest": "/api/banner?bannerId=$1"
+    },
+    {
+      "src": "/deal/(.*)",
+      "dest": "/api/deal?dealId=$1"
+    },
+    {
       "src": "/refer/(.*)",
       "dest": "/api/refer?code=$1"
     }
