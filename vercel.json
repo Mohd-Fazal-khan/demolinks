@@ -6,6 +6,10 @@
       "dest": "/api/flyer?flyerId=$1&productId=$2"
     },
     {
+      "src": "/offer/(.*)",
+      "dest": "/?offerId=$1"
+    }
+    {
       "src": "/refer/(.*)",
       "dest": "/api/refer?code=$1"
     }
