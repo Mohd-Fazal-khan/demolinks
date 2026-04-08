@@ -7,7 +7,7 @@
     },
     {
       "src": "/offer/(.*)",
-      "dest": "/api/offer?offerId=$1"
+      "dest": "/api/flyer?offerId=$1"
     },
     {
       "src": "/refer/(.*)",
