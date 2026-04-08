@@ -6,7 +6,7 @@
       "dest": "/api/flyer?flyerId=$1&productId=$2"
     },
     {
-     "src": "/offer/([^/]+)",
+     "src": "/offer/(.*)"
       "dest": "/api/offer?offerId=$1"
     },
     {
