@@ -12,7 +12,7 @@ export default function handler(req, res) {
       <body>
         <script>
           window.location = "${deepLink}";
-          setTimeout(() => { window.location = "${playStore}"; }, 1200);
+          setTimeout(() => { window.location = "${playStore}"; }, 800);
         </script>
       </body>
     </html>
