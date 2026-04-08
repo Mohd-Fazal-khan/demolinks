@@ -8,7 +8,7 @@
     {
       "src": "/offer/(.*)",
       "dest": "/api/offer?offerId=$1"
-    }
+    },
     {
       "src": "/refer/(.*)",
       "dest": "/api/refer?code=$1"
