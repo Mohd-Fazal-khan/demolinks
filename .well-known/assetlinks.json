@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dealzupuser",
+      "sha256_cert_fingerprints": [
+        "9B:66:11:F4:8F:B8:0E:F8:E6:95:8E:52:7F:8E:D9:B8:42:74:3E:A4:B4:EA:E9:F4:D4:27:DD:E8:7F:CE:66:AD"
+      ]
+    }
+  }
+]
