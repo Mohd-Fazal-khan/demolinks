@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["A7R8AGV2HY.com.dealzup.dealzupuser"],
+        "components": [
+          { "/": "/offer/*" },
+          { "/": "/banner/*" },
+          { "/": "/deal/*" },
+          { "/": "/flyer/*" }
+        ]
+      }
+    ]
+  }
+}
